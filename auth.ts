@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 // Predefined users (demo). In production, move to a DB and hash passwords.
 const predefinedUsers = [
   { id: "1", name: "Admin", email: "marketing@mccoin.com", password: "Admin#2025", role: "admin" },
-  { id: "2", name: "Editor", email: "editor@mccoin.com", password: "Editor#2025", role: "editor" },
+  { id: "2", name: "Admin", email: "cm@mccoin.com", password: "Admin#2025", role: "admin" },
 ] as const;
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
