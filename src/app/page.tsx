@@ -9,7 +9,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   return (
     <main className="min-h-screen bg-brand-blue/95 text-brand-mercury">
-      <section className="relative flex flex-col md:flex-row items-center justify-center isolate overflow-hidden px-6 py-28 sm:py-32">
+      <section className="relative flex flex-col md:flex-row items-center justify-center isolate overflow-hidden px-6 py-28 sm:py-32 mx-auto xl:max-w-[70%]">
         <motion.div initial={{opacity:0,y:12}} animate={{opacity:1,y:0}} transition={{duration:.4}}
           className="mx-auto max-w-5xl">
           <div className="max-w-2xl">
